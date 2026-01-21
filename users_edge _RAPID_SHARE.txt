@@ -1,0 +1,4 @@
+# ---------- comando Neo4J ----------
+
+MATCH (u1:User)-[r:RAPID_SHARE]-(u2:User)
+RETURN u1.id AS source, u2.id AS target, r.weight AS weight
