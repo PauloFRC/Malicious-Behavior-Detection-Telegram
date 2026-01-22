@@ -48,7 +48,7 @@ WHERE u1.id < u2.id
 WITH u1, u2,
      count(*) AS hourly_shared_count
 
-WHERE hourly_shared_count >= 1
+WHERE hourly_shared_count >= 2
 
 MERGE (u1)-[r:HOURLY_SHARED]-(u2)
 SET r.weight = hourly_shared_count;
