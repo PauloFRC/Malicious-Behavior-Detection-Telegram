@@ -1,4 +1,4 @@
-# Detecção de Comportamento Malicioso em Dataset de Mensagens do Telegram
+# Detecção de Comportamento de Bots em Dataset de Mensagens do Telegram
 
 Processamento de grafos usando banco Neo4J e biblioteca NetworkX para detectar e mapear comportamentos de bots em mensagens no Telegram.
 
