@@ -1,5 +1,7 @@
 # Detecção de Comportamento Malicioso em Dataset de Mensagens do Telegram
 
+Processamento de grafos usando banco Neo4J e biblioteca NetworkX para detectar e mapear comportamentos de bots em mensagens no Telegram.
+
 ## Configurando Ambiente
 
 Para Configurar ambiente conta, basta executar makefile:
